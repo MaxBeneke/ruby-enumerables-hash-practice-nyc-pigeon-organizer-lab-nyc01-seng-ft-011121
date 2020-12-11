@@ -12,8 +12,6 @@ def nyc_pigeon_organizer(data)
         end
         if !final_hash[first_name][]
       end
-      binding.pry
-     puts "hlelo"
     end
   end  #end of initial iteration, no access to final_hash
 end
