@@ -15,5 +15,6 @@ def nyc_pigeon_organizer(data)
         end
       end
     end
+    binding.pry
   end  #end of initial iteration, no access to final_hash
 end
