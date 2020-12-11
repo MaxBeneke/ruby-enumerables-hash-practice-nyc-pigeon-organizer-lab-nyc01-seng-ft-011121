@@ -10,7 +10,9 @@ def nyc_pigeon_organizer(data)
         if !final_hash[first_name]
           final_hash[first_name] = {}
         end
-        if !final_hash[first_name][]
+        if !final_hash[first_name][outer_key]
+          final_hash[first_name][outer_key] = []
+        end
       end
     end
   end  #end of initial iteration, no access to final_hash
